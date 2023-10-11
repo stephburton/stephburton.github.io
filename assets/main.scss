@@ -1,0 +1,52 @@
+---
+
+---
+
+@import "minima";
+
+// Theme colours
+$text-color:       #bbbbbb;
+$background-color: #181818;
+$brand-color:      #999999;
+
+// Header
+
+header {
+    .site-title, .site-title:visited {
+        color: $text-color;
+    }
+    .site-nav .page-link {
+        color: $brand-color;
+    }
+}
+
+// Body
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
+
+// Links
+
+a, a:hover, a:focus {
+    color: $brand-color;
+}
+
+a:visited {
+    color: #424242;
+}
+
+// Code formatting
+
+ pre,
+ code {
+   border: 1px solid #424242;
+   background-color: #212121;
+ }
+
+ // Footer
+
+ .footer-heading {
+    display: none;
+  }
