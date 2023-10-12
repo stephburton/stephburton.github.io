@@ -12,6 +12,10 @@ $brand-color:      #999999;
 // Header
 
 header {
+    &.site-header {
+        border-bottom: 1px solid #424242;
+        border-top: 1px solid #424242;
+    }
     .site-title, .site-title:visited {
         color: $text-color;
     }
@@ -45,8 +49,46 @@ a:visited {
    background-color: #212121;
  }
 
- // Footer
+// Search
+.search {
+    padding-top: $spacing-unit;
+    flex: 1;
+}
+#search-input {
+    width: 60%;
+    height: 1.5em;
+    background-color: $background-color;
+    color: $text-color;
+    border: 1px solid #424242;
+    @include media-query($on-palm) {
+        width: 95%;
+    }
+}
+#search-button {
+    margin-left: 10px;
+    height: 1.75em;
+    @include media-query($on-palm) {
+        margin: 10px 0;
+        height: 2em;
+        width: 33%;
+    }
+}
+#search-results {
+    h2 {
+        margin-top: $spacing-unit;
+    }
+    p {
+        font-size: $base-font-size / 1.25;
+    }
+} 
 
+ // Footer
+footer {
  .footer-heading {
     display: none;
+  }
+}
+  
+  .site-footer {
+    border-top: none;
   }

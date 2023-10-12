@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  {%- if page.title == "Search" -%}
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="search">
+    {% include search.html %}
+  </div>
+
+  <script src="/assets/search.js"></script>
+
+  {%- else -%}
+  <div class="post-content">
+    {{ content }}
+  </div>
+  {%- endif -%}
+</article>
