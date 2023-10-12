@@ -1,5 +1,7 @@
 # stephburton.github.io
 
+[![pages-build-deployment](https://github.com/stephburton/stephburton.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/stephburton/stephburton.github.io/actions/workflows/pages/pages-build-deployment)
+
 ## Description
 This repo contains my professional development blog. It's mostly just me explaining things I've done or things I've learned. Maybe one day it will help others too.
 
