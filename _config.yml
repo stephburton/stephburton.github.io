@@ -21,9 +21,7 @@
 title: inf0rmav0re
 email: steph@inf0rmav0re.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! I'm Steph and I'm what you might call a "jack of all trades" when it comes to tech. I've done everything from image editing to upgrading Kubernetes clusters. I'm no expert, but I do love to learn. If you're eager to grow your tech knowledge beyond the basics but you feel intimidated, know you're in good company. Let's learn and be fearless, together.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  stephburton
@@ -32,12 +30,17 @@ instagram_username: inf0rmav0re # Added IG link - SB
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 show_excerpts: true # Added show excerpts - SB
 
-header_pages: # Adding pages to nav - SB
-- search.md
+show_search: true # Show the search icon + link in the nav - SB
+
+header_pages:
 - about.markdown
+
+# Masthead code from https://github.com/jekyll/minima/issues/264#issuecomment-411274783
+masthead: /assets/images/blog_logo.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.

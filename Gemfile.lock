@@ -271,6 +271,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.3)
   jekyll-feed (~> 0.12)
+  jemoji
   minima (~> 2.5.1)
   mutex_m (~> 0.1.2)
   racc (~> 1.7.1)

@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Learning any technical topic can be super intimidating, but it doesn't have to be. These posts contain what I've learned, broken down into more accessible, bite-sized chunks.

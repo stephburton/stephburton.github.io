@@ -24,6 +24,11 @@ header {
     }
 }
 
+.site-masthead {
+    width: auto;
+    height: $spacing-unit * 0.9;
+}
+
 // Body
 
 body {
@@ -33,12 +38,8 @@ body {
 
 // Links
 
-a, a:hover, a:focus {
+a, a:hover, a:focus, a:visited {
     color: $brand-color;
-}
-
-a:visited {
-    color: #424242;
 }
 
 // Code formatting
@@ -89,6 +90,13 @@ footer {
   }
 }
   
-  .site-footer {
-    border-top: none;
-  }
+.site-footer {
+    border-bottom: 1px solid #424242;
+    border-top: 1px solid #424242;
+}
+
+.footer-col-wrapper {
+    p {
+        font-size: $small-font-size * 0.9;
+    }
+}
