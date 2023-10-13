@@ -1,0 +1,37 @@
+---
+layout: page
+title: My career (so far)
+permalink: /about_me/
+---
+
+My love for technology began at the age of 18, inspired by someone who was a self-taught system administrator. Within a year, I enrolled in a college-level Network Administrator program at a local vocational school. While some of the subjects were quite challenging, I managed to complete the program with an 83% average.
+
+After graduation, I felt discouraged by the limited opportunities available to me. In hindsight, those opportunities would’ve provided me with a lot of room to grow, but I did not think this way at the time. Back then, I felt that taking an entry-level technical support role would not challenge me enough, so I pivoted to studying web development. Spoiler: this was in 2000, so that pivot was not the best decision. 😅
+
+For years, I freelanced as a web developer while also working in customer service roles, never quite finding the right fit. Looking back now my path seems so obvious: I’d jump at any opportunity to do technical work at my part-time customer service job. Things like installing a new hard drive, performing system imaging or disk cloning tasks, etc. These tasks, while outside of what I was being paid to do, were so engaging! Performing these tasks also provided an opportunity to teach my coworkers some new tech skills, which was incredibly rewarding.
+
+During this period, I was pursuing an education in Psychology and Cognitive Science at the University of Toronto. Most of my courses revolved around human cognition and intelligence as it pertains to our understanding of AI. While I did enjoy the subject matter immensely, I knew I did not want to spend my life doing research. I’m not one to continue investing time in something that’s not a good fit for me, so I left one year prior to graduation. That said, I did learn some amazing things. I was introduced to the work of Geoffrey Hinton, learned about how the human brain processes information, and discovered how critical ethics are when discussing AI.
+
+In 2017, I joined a large SaaS eCommerce company, initially doing a combination of technical support and customer service. While I didn’t always love the work, it did increase my empathy for end users and challenged me to learn quickly and be resourceful.
+
+After three months in that role, an opportunity came up on one of the company's escalated support teams. This particular team handled requests for storefront modifications directly from our customers. I had a background in web development and had been waiting for an opening on this team. I applied and was hired. During my time in that role, I had the opportunity to learn a lot about user experience but also how important it is to really understand the customer’s end goal. Initial requests often contained a solution rather than a problem, so it was necessary to learn how to ask the right questions. Having that information allowed us to work with customers to find a solution, resulting in better outcomes.
+
+I was happily working in my role when a leadership opportunity came up, and my manager encouraged me to apply. I had no previous experience in leadership, but it had become apparent to my manager that I had the necessary skills to succeed. I applied and got the job. After getting the role, I realized that my job was not to be a “boss”; it was to be a guide and facilitator so the members of my team could do what they did best. I embraced “servant” leadership and focused on removing obstacles and supporting career growth. I loved my team and spent two years in that role.
+
+Eventually, I realized I was missing something: I was no longer growing the way I had hoped and was feeling stagnant. A friend began mentoring me while I learned Ruby on Rails, and I joined our company’s Women Developers group. I had my mind set on pursuing a developer role when I was offered a leadership role by a member of the Women Developers group. She needed someone to lead her team which was focused on providing developers with support when they had questions about our internal developer tooling. I knew this would provide me with many new learning opportunities, so I happily accepted her offer.
+
+Not only was I right about the learning opportunities, but this was the role that helped me realize I wanted to be on the engineering side of things; not the leadership side. I was exposed to containerized environments, access control, CI/CD (continuous integration / continuous deployment), observability, and many other related topics. Although my exposure to these subjects was very high-level at this point, it was enough for me to know I wanted to learn more.
+
+After one year on that team a friend and mentor suggested I join her new team, which could provide me with more opportunities to learn while also contributing as a manager. They were looking for someone to lead a combination observability / reliability team. Sadly, after just a few months, the direction of the team pivoted just enough to eliminate most, if not all, of the opportunities to learn the skills I wanted to learn.
+
+At this point, I had some deep thinking to do about my career. I knew I wasn’t happy in leadership roles, and I knew I wanted to become a cloud infrastructure engineer [^1], but I did not have the necessary skills. All I had was a passion for the subject and a love of learning new things. I spoke to some friends and mentors who were already very skilled engineers. They suggested I ask around to see if there were any opportunities on teams with a manager who was willing to allow me to learn on the job. I reached out to the director of Production Engineering, who was very supportive of the career change I wanted to make. A few more conversations with various managers later, and I found myself with an offer to join the company’s restricted infrastructure team.
+
+My new team was responsible for maintaining the restricted infrastructure, which fell under the scope of PCI-DSS and SOX standards. It was a small team made up of career veterans, who operated mostly as generalists. This made the job all the more interesting due to the variety of work. At any time the team would be working on access control, configuring our cloud infrastructure, troubleshooting database-related issues, etc. Each member of the team was like a swiss-army knife, which meant being a part of it presented a buffet of learning opportunities.
+
+And it did! In just one year on the team, I went from a manager with only a high-level understanding of what cloud infrastructure was all about, to an actual contributor. Under the guidance of my teammates, I was able to create and update firewall rules using Terraform, update policies for our internal access control system, update clusters and VMs, create monitors and dashboards in Grafana, review kubectl logs to assist with troubleshooting issues in production, and a number of other tasks I never thought I’d be able to do.
+
+Due to the mass layoffs all over tech, my time on that team came to an end in May of this year. I take with me a whole new skill set which I am eager to build on and continue to grow. My colleagues from my team continue to mentor me as I continue to learn, independently. I hope to find a new role where I can bring the same level of enthusiasm and love of learning while contributing.
+
+---
+
+> [^1]: “Engineer” was the title given to everyone who worked on my team (and many teams at that company), regardless of whether or not you had the professional designation.
