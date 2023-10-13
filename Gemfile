@@ -40,3 +40,4 @@ gem "drb", "~> 2.1.1"
 gem "mutex_m", "~> 0.1.2"
 gem "unf_ext", "~> 0.0.8.2"
 gem "webrick"
+gem 'jemoji'
