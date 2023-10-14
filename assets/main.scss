@@ -50,6 +50,10 @@ a, a:hover, a:focus, a:visited {
    background-color: #212121;
  }
 
+ .highlighter-rouge .highlight {
+    background-color: #181818;
+ }
+
 // Search
 .search {
     padding-top: $spacing-unit;
@@ -81,7 +85,15 @@ a, a:hover, a:focus, a:visited {
     p {
         font-size: $base-font-size / 1.25;
     }
-} 
+}
+
+hr {
+    margin: 1.5em 0 1em 0;
+}
+
+.footnotes {
+    font-size: $base-font-size * 0.9;
+}
 
  // Footer
 footer {

@@ -23,7 +23,7 @@ email: steph@inf0rmav0re.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Steph and I'm what you might call a "jack of all trades" when it comes to tech. I've done everything from image editing to upgrading Kubernetes clusters. I'm no expert, but I do love to learn. If you're eager to grow your tech knowledge beyond the basics but you feel intimidated, know you're in good company. Let's learn and be fearless, together.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stephburton.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  stephburton
 instagram_username: inf0rmav0re # Added IG link - SB
 # Build settings
