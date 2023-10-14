@@ -95,6 +95,20 @@ hr {
     font-size: $base-font-size * 0.9;
 }
 
+.alert {
+    padding: 1em 0.5em;
+    margin: 1em 0;
+}
+.alert-info {
+    border: 1px solid #424242;
+}
+.alert-warning {
+    border: 1px solid #FFCC00;
+}
+.alert-danger {
+    border: 1px solid #CC0000;
+}
+
  // Footer
 footer {
  .footer-heading {
