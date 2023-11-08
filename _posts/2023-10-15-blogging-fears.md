@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Blogging Fears"
+---
+
 Since I began sharing my blog I’ve been feeling a lot of fear. It’s really hard to expose yourself like this. Especially when you’re unemployed and looking for work.
 
 I recently heard part of an Elizabeth Gilbert talk where she mentioned a strategy she uses to deal with fear. She writes a letter from the perspective of her fear, listing everything she’s afraid of. She said this list ends up being surprisingly short, and it enables her to find her courage and move forward.
