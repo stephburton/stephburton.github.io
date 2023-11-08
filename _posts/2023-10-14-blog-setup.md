@@ -101,7 +101,7 @@ Here's a breakdown of the changes made to add the search feature, complete with 
 
 Turns out there's not much I could do, or needed to do. My blog is a static site and I'm not handling sensitive data which significantly reduces security risks.
 
-Additionally, hosting on Github Pages makes it hard to add proper security headers. You can read more about security headers, [here](https://owasp.org/www-project-secure-headers/)).
+Additionally, hosting on Github Pages makes it hard to add proper security headers. You can read more about security headers, [here](https://owasp.org/www-project-secure-headers/).
 
 In the end adding meta tags in the _head.html_ file (which was copied from the gem) was the best (free) option. You can view the meta tags, [here](https://github.com/stephburton/stephburton.github.io/blob/main/_includes/head.html#L3-L4).
 
